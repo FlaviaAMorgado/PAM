@@ -92,7 +92,7 @@ startActivityForResult(intent, REQUEST_IMAGE_PICK);
 
 **Para qualquer action é preciso solicitar as permissões adequadas em seu arquivo manisfest para acessar o conteúdo desejado, como permissões de leitura de armazenamento externo, se aplicável.**
 
-
+<br></br>
  <h2> Referências </h2>
 
 
