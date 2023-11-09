@@ -46,7 +46,7 @@ Pesquisa sobre Permissões, Actions e Sensores no Android Studio
 <p> A Action View pode ser utilizada para solicitar que o sistema exiba dados específicos para o usuário. Ela pode ser usada de diversas maneiras, como por exemplo, abrir uma URL da web, visualizar arquivos, exibir detalhes de contatos, ver mapas e entre muitas outras coisas. </p> 
 	 <h6>Exemplo de Código: </h6> 
 
-<h6> Abrir uma URL da web: </h6>
+<h5> Abrir uma URL da web: </h5>
 
 _Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.exemplo.com"));
 startActivity(intent);_
