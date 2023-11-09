@@ -44,53 +44,53 @@ Pesquisa sobre Permissões, Actions e Sensores no Android Studio
 <h3> Tipos e Finalidades  </h3>
 	 <h4>ACTION_VIEW </h4>
 <p> A Action View pode ser utilizada para solicitar que o sistema exiba dados específicos para o usuário. Ela pode ser usada de diversas maneiras, como por exemplo, abrir uma URL da web, visualizar arquivos, exibir detalhes de contatos, ver mapas e entre muitas outras coisas. </p> 
-	 <h6>Exemplo de Código: </h6> 
+	 <h5>Exemplo de Código: </h5> 
 
 <h5> Abrir uma URL da web: </h5>
 
-_Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.exemplo.com"));
-startActivity(intent);_
+<p>Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.exemplo.com"));
+startActivity(intent);</p>
 
-<h6> Visualizar um arquivo de imagem: </h6>
-* Uri uri = Uri.parse("content://media/external/images/media/1"); *
-* Intent intent = new Intent(Intent.ACTION_VIEW, uri); *
- * startActivity(intent); *
+<h5> Visualizar um arquivo de imagem: </h5>
+Uri uri = Uri.parse("content://media/external/images/media/1");
+Intent intent = new Intent(Intent.ACTION_VIEW, uri); 
+ startActivity(intent);  
 	
-Visualizar um local no mapa:
+<h5> Visualizar um local no mapa: </h5>
 Uri uri = Uri.parse("geo:0,0?q=latitude,longitude(Latitude e Longitude)");
 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-startActivity(intent);
+startActivity(intent);<
 
-	ACTION_DIAL
-	Essa action, tem como objetivo iniciar um aplicativo de discagem para permitir que o usuário possa fazer uma chamada telefônica, porém ela só traz o número já discado, assim dá a segurança o usuário começar a chamada. Ela é usada principalmente quando a aplicação deseja permitir que o usuário ligue para o número de telefone específico, como um serviço de entrega e suporte ao cliente. 
-	Exemplo de Código:
-Intent intent = new Intent(Intent.ACTION_DIAL);
-intent.setData(Uri.parse("tel:+123456789")); // Substitua com o número de telefone desejado
-startActivity(intent);
-
-
-	ACTION_SENDTO
+<h5>ACTION_DIAL </h5>
+	<p>Essa action, tem como objetivo iniciar um aplicativo de discagem para permitir que o usuário possa fazer uma chamada telefônica, porém ela só traz o número já discado, assim dá a segurança o usuário começar a chamada. Ela é usada principalmente quando a aplicação deseja permitir que o usuário ligue para o número de telefone específico, como um serviço de entrega e suporte ao cliente. </p>
+	<p> Exemplo de Código: </p>
+ Intent intent = new Intent(Intent.ACTION_DIAL);
+intent.setData(Uri.parse("tel:+123456789")); Substitua com o número de telefone desejado
+startActivity(intent); 
+ㅤ
+	<h5> ACTION_SENDTO </h5>
 	Essa ação é usada para iniciar a aplicação de mensagens, com o objetivo de permitir ao usuário criar uma mensagem e definir o destinatário. Ela é útil quando você deseja iniciar a composição de uma mensagem de texto a partir do seu aplicativo, mas não deseja enviar a mensagem automaticamente.
-Exemplo de Código:
+ <p> </p>Exemplo de Código</p>
 Intent intent = new Intent(Intent.ACTION_SENDTO);
 intent.setData(Uri.parse("smsto:+123456789")); // Substitua com o número de telefone desejado
 intent.putExtra("sms_body", "Mensagem de exemplo");
 startActivity(intent);
 
-ACTION_IMAGE_CAPTURE
-Essa action é utilizada para iniciar o aplicativo da câmera do dispositivo, permitindo ao usuário capturar uma imagem. Para ser algo mais funcional, chamamos a action e depois você deve abrir outra activity, assim após tirar a foto retornamos a imagem capturada. Para trazermos a imagem chamados o método ‘onActivityResult()’. 
-Exemplo de Código:
+<h4> ACTION_IMAGE_CAPTURE </h4>
+<p>Essa action é utilizada para iniciar o aplicativo da câmera do dispositivo, permitindo ao usuário capturar uma imagem. Para ser algo mais funcional, chamamos a action e depois você deve abrir outra activity, assim após tirar a foto retornamos a imagem capturada. Para trazermos a imagem chamados o método ‘onActivityResult()’. 
+Exemplo de Código:</p>
 Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
 startActivityForResult(intent, REQUEST_IMAGE_CAPTURE);
 
-ACTION_GET_CONTENT
-Essa action é usada para permitir que o usuário selecione um conteúdo de qualquer tipo disponível em seu dispositivo, como imagens, vídeos, documentos entre outras coisas. Logo, essa ação é usada para que o usuário escolha um arquivo ou mídia de sua preferência. 
-Exemplo de Código:
+<h4> ACTION_GET_CONTENT </h4>
+<p>Essa action é usada para permitir que o usuário selecione um conteúdo de qualquer tipo disponível em seu dispositivo, como imagens, vídeos, documentos entre outras coisas. Logo, essa ação é usada para que o usuário escolha um arquivo ou mídia de sua preferência. 
+Exemplo de Código: </p>
 Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
 intent.setType("ImageOuQualuerOutroTipo/*"); // Defina o tipo de conteúdo desejado (neste caso, imagens)
 startActivityForResult(intent, REQUEST_IMAGE_PICK);
 
-Para qualquer action é preciso solicitar as permissões adequadas em seu arquivo manisfest para acessar o conteúdo desejado, como permissões de leitura de armazenamento externo, se aplicável.
+
+**Para qualquer action é preciso solicitar as permissões adequadas em seu arquivo manisfest para acessar o conteúdo desejado, como permissões de leitura de armazenamento externo, se aplicável.**
 
 
  <h2> Referências </h2>
