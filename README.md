@@ -44,7 +44,7 @@ Pesquisa sobre Permissões, Actions e Sensores no Android Studio
 <h3> Tipos e Finalidades  </h3>
 	 <h4>ACTION_VIEW </h4>
 <p> A Action View pode ser utilizada para solicitar que o sistema exiba dados específicos para o usuário. Ela pode ser usada de diversas maneiras, como por exemplo, abrir uma URL da web, visualizar arquivos, exibir detalhes de contatos, ver mapas e entre muitas outras coisas. </p> 
-	 <p> *** Exemplo de Código: *** </p>
+	 *** Exemplo de Código: *** 
 
 <h6> Abrir uma URL da web: </h6>
 
