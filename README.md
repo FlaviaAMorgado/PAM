@@ -38,17 +38,19 @@ Pesquisa sobre Permissões, Actions e Sensores no Android Studio
 
 <hr> 
 
-Actions
-No Android Studio, a action refere-se a uma operação ou comando que você pode executar para realizar uma tarefa específica. As action podem incluir coisas como criar um projeto Android, abrir um arquivo, executa, abrir um site da web, fazer uma chamada telefônica, enviar mensagens de texto e entre outras coisas. As actions são usadas para definir o que você deseja que seu aplicativo faça em resposta a uma intente específica. 
+<h1> Actions </h1>
+<p>No Android Studio, a action refere-se a uma operação ou comando que você pode executar para realizar uma tarefa específica. As action podem incluir coisas como criar um projeto Android, abrir um arquivo, executa, abrir um site da web, fazer uma chamada telefônica, enviar mensagens de texto e entre outras coisas. As actions são usadas para definir o que você deseja que seu aplicativo faça em resposta a uma intente específica.</p> 
 
-Tipos e Finalidades 
-	ACTION_VIEW
-A Action View pode ser utilizada para solicitar que o sistema exiba dados específicos para o usuário. Ela pode ser usada de diversas maneiras, como por exemplo, abrir uma URL da web, visualizar arquivos, exibir detalhes de contatos, ver mapas e entre muitas outras coisas. 
-	Exemplo de Código:
+<h3> Tipos e Finalidades  </h3>
+	 <h4>ACTION_VIEW </h4>
+<p> A Action View pode ser utilizada para solicitar que o sistema exiba dados específicos para o usuário. Ela pode ser usada de diversas maneiras, como por exemplo, abrir uma URL da web, visualizar arquivos, exibir detalhes de contatos, ver mapas e entre muitas outras coisas. </p> 
+	 <p> _Exemplo de Código:_ </p>
 
-Abrir uma URL da web:
+<h6> Abrir uma URL da web: </h6>
+'''
 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.exemplo.com"));
 startActivity(intent);
+'''
 
 Visualizar um arquivo de imagem:
 Uri uri = Uri.parse("content://media/external/images/media/1");
@@ -92,7 +94,7 @@ startActivityForResult(intent, REQUEST_IMAGE_PICK);
 Para qualquer action é preciso solicitar as permissões adequadas em seu arquivo manisfest para acessar o conteúdo desejado, como permissões de leitura de armazenamento externo, se aplicável.
 
 
- <h2> Referências <h2>
+ <h2> Referências </h2>
 
 
 Rafael Negherbon, ‘Sandbox: O Que é E as Vantagens de Testes’, Transfeera, 2023 <https://transfeera.com/blog/sandbox/#:~:text=Um%20sandbox%20%C3%A9%20um%20ambiente,tenham%20ramifica%C3%A7%C3%B5es%20no%20mundo%20real.> [acessado 7 Novembro 2023].
