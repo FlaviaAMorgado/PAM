@@ -47,15 +47,14 @@ Pesquisa sobre Permissões, Actions e Sensores no Android Studio
 	 <p> _Exemplo de Código:_ </p>
 
 <h6> Abrir uma URL da web: </h6>
-'''
-Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.exemplo.com"));
-startActivity(intent);
-'''
 
-Visualizar um arquivo de imagem:
-Uri uri = Uri.parse("content://media/external/images/media/1");
-Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-startActivity(intent);
+'Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.exemplo.com"));
+startActivity(intent);'
+
+<h6> Visualizar um arquivo de imagem: </h6>
+'Uri uri = Uri.parse("content://media/external/images/media/1");'
+'Intent intent = new Intent(Intent.ACTION_VIEW, uri);'
+'startActivity(intent);'
 	
 Visualizar um local no mapa:
 Uri uri = Uri.parse("geo:0,0?q=latitude,longitude(Latitude e Longitude)");
