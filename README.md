@@ -202,35 +202,35 @@ sensorManager.registerListener(gravityListener, gravitySensor, SensorManager.SEN
  <h2> Referências </h2>
 
 
-Rafael Negherbon, ‘Sandbox: O Que é E as Vantagens de Testes’, Transfeera, 2023 <https://transfeera.com/blog/sandbox/#:~:text=Um%20sandbox%20%C3%A9%20um%20ambiente,tenham%20ramifica%C3%A7%C3%B5es%20no%20mundo%20real.> [acessado 7 Novembro 2023].
+Rafael Negherbon, ‘Sandbox: O Que é E as Vantagens de Testes’, Transfeera, 2023 <https://transfeera.com/blog/sandbox/#:~:text=Um%20sandbox%20%C3%A9%20um%20ambiente,tenham%20ramifica%C3%A7%C3%B5es%20no%20mundo%20real.> [Acessado 7 Novembro 2023].
 
-Android Developers, 2023 <https://developer.android.com/guide/topics/manifest/action-element?hl=pt-br> [acessado 7 novembro 2023].
+Android Developers, 2023 <https://developer.android.com/guide/topics/manifest/action-element?hl=pt-br> [Acessado 7 novembro 2023].
 
-‘Introdução a Atividades’, Android Developers, 2023 <https://developer.android.com/guide/components/activities/intro-activities?hl=pt-br> [acessado 7 novembro 2023].
+‘Introdução a Atividades’, Android Developers, 2023 <https://developer.android.com/guide/components/activities/intro-activities?hl=pt-br> [Acessado 7 novembro 2023].
 
-‘Usar Provedores E Visualizações de Ação’, Android Developers, 2023 <https://developer.android.com/develop/ui/views/components/appbar/action-views?hl=pt-br> [acessado 7 novembro 2023].
+‘Usar Provedores E Visualizações de Ação’, Android Developers, 2023 <https://developer.android.com/develop/ui/views/components/appbar/action-views?hl=pt-br> [Acessado 7 novembro 2023].
 
-‘Intent  |  Android Developers’, Android Developers, 2023 <https://developer.android.com/reference/android/content/Intent> [acessado 7 novembro 2023].
+‘Intent  |  Android Developers’, Android Developers, 2023 <https://developer.android.com/reference/android/content/Intent> [Acessado 7 novembro 2023].
 
-‘Permitir Que Outros Apps Iniciem Sua Atividade’, Android Developers, 2023 <https://developer.android.com/training/basics/intents/filters?hl=pt-br> [acessado 7 novembro 2023].
+‘Permitir Que Outros Apps Iniciem Sua Atividade’, Android Developers, 2023 <https://developer.android.com/training/basics/intents/filters?hl=pt-br> [Acessado 7 novembro 2023].
 
-‘Adicionar E Processar Ações’, Android Developers, 2020 <https://developer.android.com/training/appbar/actions?hl=pt-br> [acessado 7 novembro 2023].
+‘Adicionar E Processar Ações’, Android Developers, 2020 <https://developer.android.com/training/appbar/actions?hl=pt-br> [Acessado 7 novembro 2023].
 
-‘Manifest.permission  |  Android Developers’, Android Developers, 2023 <https://developer.android.com/reference/android/Manifest.permission> [acessado 7 novembro 2023].
+‘Manifest.permission  |  Android Developers’, Android Developers, 2023 <https://developer.android.com/reference/android/Manifest.permission> [Acessado 7 novembro 2023].
 
-‘Manifest.permission  |  Android Developers’, Android Developers, 2023 <https://developer.android.com/reference/android/Manifest.permission#READ_EXTERNAL_STORAGE> [acessado 7 novembro 2023].
+‘Manifest.permission  |  Android Developers’, Android Developers, 2023 <https://developer.android.com/reference/android/Manifest.permission#READ_EXTERNAL_STORAGE> [Acessado 7 novembro 2023].
 
-O que é sensor de gravidade - Telefones Celulares. Telefonescelulares.com.br. Disponível em: <https://www.telefonescelulares.com.br/t/o-que-e-sensor-de-gravidade/>. [Acesso em: 09 nov. 2023].
+O que é sensor de gravidade - Telefones Celulares. Telefonescelulares.com.br. Disponível em: <https://www.telefonescelulares.com.br/t/o-que-e-sensor-de-gravidade/>. [Acessado em: 09 novembro 2023].
 
-Sensores de movimento. Android Developers. Disponível em: <https://developer.android.com/guide/topics/sensors/sensors_motion?hl=pt-br>. [Acesso em: 09 nov. 2023].
+Sensores de movimento. Android Developers. Disponível em: <https://developer.android.com/guide/topics/sensors/sensors_motion?hl=pt-br>. [Acessado em: 09 novembro 2023].
 
-Acelerômetros: uso em celulares e detecção de velocidade. Parte 1 - Laboratório iMobilis. Ufop.br. Disponível em: <http://www2.decom.ufop.br/imobilis/acelerometros-uso-em-celulares-e-deteccao-de-velocidade-parte-1/>. [Acesso em: 09 nov. 2023].
+Acelerômetros: uso em celulares e detecção de velocidade. Parte 1 - Laboratório iMobilis. Ufop.br. Disponível em: <http://www2.decom.ufop.br/imobilis/acelerometros-uso-em-celulares-e-deteccao-de-velocidade-parte-1/>. [Acessado em: 09 novembro 2023].
 
-Visão geral dos sensores. Android Developers. Disponível em: <https://developer.android.com/guide/topics/sensors/sensors_overview?hl=pt-br>. [Acesso em: 09 nov. 2023].
+Visão geral dos sensores. Android Developers. Disponível em: <https://developer.android.com/guide/topics/sensors/sensors_overview?hl=pt-br>. [Acessado em: 09 novembro 2023].
 
-NIELD, David. Conheça todos os sensores do seu smartphone e como eles funcionam. Giz Brasil. Disponível em: <https://gizmodo.uol.com.br/sensores-smartphones-guia/>. [Acesso em: 09 nov. 2023].
+NIELD, David. Conheça todos os sensores do seu smartphone e como eles funcionam. Giz Brasil. Disponível em: <https://gizmodo.uol.com.br/sensores-smartphones-guia/>. [Acessado em: 09 novembro 2023].
 
-Sensores. Android Developers. Disponível em: <https://developer.android.com/guide/topics/sensors?hl=pt-br>. [Acesso em: 09 nov. 2023].
+Sensores. Android Developers. Disponível em: <https://developer.android.com/guide/topics/sensors?hl=pt-br>. [Acessado em: 09 novembro 2023].
 
 
 
